@@ -253,6 +253,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_daisy
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
