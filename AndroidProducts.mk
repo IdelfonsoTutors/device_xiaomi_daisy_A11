@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_daisy.mk
+    $(LOCAL_DIR)/hentai_daisy.mk
