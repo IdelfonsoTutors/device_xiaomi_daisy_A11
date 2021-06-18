@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)corvus_daisy.mk
+    $(LOCAL_DIR)/aosp_daisy.mk
