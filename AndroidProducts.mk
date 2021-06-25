@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_daisy.mk
+    $(LOCAL_DIR)/cherish_daisy.mk
