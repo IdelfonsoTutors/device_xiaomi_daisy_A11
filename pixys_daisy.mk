@@ -28,14 +28,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common Potato sauce.
-$(call inherit-product, vendor/wave/config/common.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Inherit some prebuilts
 $(call inherit-product, vendor/custom/prebuilts/config.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := wave_daisy
+PRODUCT_NAME := pixys_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 Lite
