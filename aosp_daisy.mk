@@ -28,14 +28,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common Potato sauce.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit some prebuilts
 $(call inherit-product, vendor/custom/prebuilts/config.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := pixys_daisy
+PRODUCT_NAME := aosp_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 Lite
@@ -62,7 +62,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Custom
-CUSTOM_BUILD_TYPE=MONTHLY
+CUSTOM_BUILD_TYPE := MONTHLY
+PPUI_MAINTAINER := Idelfonsolima
 
 # Use MiuiCamera
 WITH_MIUICAM := true
