@@ -35,7 +35,7 @@ $(call inherit-product, vendor/custom/prebuilts/config.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := aosp_daisy
+PRODUCT_NAME := cesium_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 Lite
@@ -63,7 +63,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Custom
 CUSTOM_BUILD_TYPE := MONTHLY
-PPUI_MAINTAINER := Idelfonsolima
 
 # Use MiuiCamera
 WITH_MIUICAM := true
