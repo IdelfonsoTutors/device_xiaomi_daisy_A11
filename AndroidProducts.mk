@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_daisy.mk
+    $(LOCAL_DIR)/pixys_daisy.mk
