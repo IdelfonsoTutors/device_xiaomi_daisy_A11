@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_daisy.mk
+    $(LOCAL_DIR)/xtended_daisy.mk
